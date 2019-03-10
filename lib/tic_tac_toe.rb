@@ -113,5 +113,5 @@ def play(board)
       puts "#{Congratulations winner(board)}!"
     end
   end
-  won?(board) ? : puts "Cat's Game?"
+  won?(board) ? puts : puts "Cat's Game?"
 end
