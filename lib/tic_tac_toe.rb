@@ -108,7 +108,7 @@ def play(board)
   puts "Welcome to Tic Tac Toe!"
   display_board(board)
   while !over?(board)
-    turn(board, current_player(board))
+    turn(board)
     if won?(board)
       puts "#{winner(board)} won the game!"
     end
